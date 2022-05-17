@@ -1,0 +1,38 @@
+$basePath: "../assets/fonts/";
+
+@font-face {
+  font-family: "Inter-Thin";
+  src: url($basePath + "Inter/Inter-Thin.ttf");
+}
+@font-face {
+  font-family: "Inter-SemiBold";
+  src: url($basePath + "Inter/Inter-SemiBold.ttf");
+}
+@font-face {
+  font-family: "Inter-Regular";
+  src: url($basePath + "Inter/Inter-Regular.ttf");
+}
+@font-face {
+  font-family: "Inter-Medium";
+  src: url($basePath + "Inter/Inter-Medium.ttf");
+}
+@font-face {
+  font-family: "Inter-Light";
+  src: url($basePath + "Inter/Inter-Light.ttf");
+}
+@font-face {
+  font-family: "Inter-ExtraLight";
+  src: url($basePath + "Inter/Inter-ExtraLight.ttf");
+}
+@font-face {
+  font-family: "Inter-ExtraBold";
+  src: url($basePath + "Inter/Inter-ExtraBold.ttf");
+}
+@font-face {
+  font-family: "Inter-Bold";
+  src: url($basePath + "Inter/Inter-Bold.ttf");
+}
+@font-face {
+  font-family: "Inter-Black";
+  src: url($basePath + "Inter/Inter-Black.ttf");
+}

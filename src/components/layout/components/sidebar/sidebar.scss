@@ -1,4 +1,47 @@
 .sidebar {
   height: 100%;
   background: var(--bg-black-100);
+  background: #232123;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #ea7f37;
+  position: absolute;
+  width: 80%;
+  left: -80%;
+  transition: 400ms;
+  &.showSideBar {
+    left: 0;
+  }
+  @media screen and (min-width: 800px) {
+    position: relative;
+    width: 100%;
+  }
+  .crossIcon {
+    position: absolute;
+    right: -60px;
+    top: 10px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--bg-black-100);
+    background: #232123;
+    @media screen and (min-width: 800px) {
+      display: none;
+    }
+    svg {
+      height: 20px;
+      width: 20px;
+      path {
+        fill: #ea7f37;
+      }
+    }
+  }
+  .logoHolder {
+    top: 2rem;
+    position: absolute;
+  }
 }

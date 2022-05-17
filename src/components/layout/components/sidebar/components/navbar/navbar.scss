@@ -1,0 +1,33 @@
+.navbar {
+  list-style: none;
+  li {
+    border-bottom: 1px solid #4d4d4d;
+    padding: 5px 8px;
+    margin-bottom: 15px;
+    color: #fff;
+    font-size: 13px;
+    transition: 300ms;
+    font-family: "Inter-Bold";
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    svg {
+      height: 12px;
+      width: 12px;
+      margin-right: 10px;
+      path {
+        transition: 300ms;
+        fill: #fff;
+      }
+    }
+    &:hover,
+    &.activeNav {
+      color: #f07d30;
+      svg {
+        path {
+          fill: #f07d30;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+.logo {
+  font-size: 25px;
+  font-weight: 700;
+  position: relative;
+  font-family: "Inter-SemiBold";
+  .leftBottomAngle,
+  .rightTopAngle {
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    background: transparent;
+  }
+  .leftBottomAngle {
+    left: -20px;
+    bottom: -10px;
+    border-left: 3px solid #ea7f37;
+    border-bottom: 3px solid #ea7f37;
+  }
+  .rightTopAngle {
+    right: -20px;
+    top: -10px;
+    border-top: 3px solid #ea7f37;
+    border-right: 3px solid #ea7f37;
+  }
+}
