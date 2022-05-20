@@ -1,0 +1,74 @@
+.aboutComponent {
+  .nameAndWork {
+    color: #fff;
+    margin-bottom: 20px;
+    span {
+      color: var(--orange);
+      white-space: nowrap;
+    }
+  }
+  .aboutMe {
+    color: #fff;
+    margin-bottom: 40px;
+    text-align: justify;
+  }
+  .personalDetailsAndSkillsRate {
+    color: #fff;
+    grid-template-columns: 3fr 2fr;
+    align-items: flex-start;
+    grid-gap: 40px;
+    @media screen and (min-width: 800px) {
+      display: grid;
+    }
+    .personalDetails {
+      flex-wrap: wrap;
+      grid-gap: 0 40px;
+      grid-template-columns: 1fr 1fr;
+      margin-bottom: 40px;
+      @media screen and (min-width: 800px) {
+        display: grid;
+      }
+      .details {
+        flex-grow: 1;
+        border-bottom: 2px solid #5d5d5d;
+        padding: 7px 0;
+        .label {
+          font-family: "Inter-Bold";
+          margin-right: 5px;
+          text-transform: capitalize;
+        }
+        .info {
+          font-family: "Inter-Medium";
+        }
+      }
+    }
+    .skillsRate {
+      display: grid;
+      grid-gap: 25px 0;
+      .progressBar {
+        .labels {
+          display: flex;
+          justify-content: space-between;
+          margin-bottom: 10px;
+          .skill {
+            font-family: "Inter-Bold";
+          }
+          .percentage {
+            font-family: "Inter-Bold";
+          }
+        }
+        .progress {
+          background: grey;
+          width: 100%;
+          height: 7px;
+          border-radius: 20px;
+          > div {
+            height: inherit;
+            border-radius: inherit;
+            background: var(--orange);
+          }
+        }
+      }
+    }
+  }
+}
