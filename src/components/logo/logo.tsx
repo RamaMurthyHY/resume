@@ -8,7 +8,7 @@ function Logo(props: iProps): JSX.Element {
   const { className } = props;
   return (
     <div className={`logo ${className}`}>
-      Rama Murthy
+      <h1>RM</h1>
       <div className="leftBottomAngle" />
       <div className="rightTopAngle" />
     </div>

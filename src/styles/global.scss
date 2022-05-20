@@ -7,7 +7,8 @@ body,
 }
 body {
   line-height: 1.5;
-  font-size: 16px;
+  font-family: "Inter-Light";
+  text-align: left;
 }
 * {
   margin: 0;
@@ -17,10 +18,24 @@ body {
   box-sizing: border-box;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Inter-SemiBold";
+}
+
+p {
+  font-family: "Inter-Regular";
+}
+
 :root {
   --bg-black-900: #f2f2fc;
   --bg-black-100: #fdf9ff;
   --bg-black-50: #e8dfec;
   --text-black-900: #302e4d;
   --text-black-700: #504e70;
+  --orange: #ff7213;
 }

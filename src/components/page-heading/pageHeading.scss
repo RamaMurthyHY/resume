@@ -1,0 +1,19 @@
+.pageHeading {
+  .heading {
+    color: #fff;
+  }
+  .hrOne,
+  .hrTwo {
+    background: var(--orange);
+    height: 4px;
+    border-radius: 32px;
+    border: 0;
+  }
+  .hrOne {
+    margin-bottom: 5px;
+    width: 60px;
+  }
+  .hrTwo {
+    width: 30px;
+  }
+}

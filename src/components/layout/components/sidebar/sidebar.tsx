@@ -4,6 +4,8 @@ import Logo from "components/logo/logo";
 import Navbar from "./components/navbar/navbar";
 import Cross from "components/svg/cross";
 import NavToggle from "components/svg/bars";
+import { useStore } from "store";
+import { layoutActions } from "store/actions";
 
 interface iProps {
   className?: string;
@@ -11,12 +13,16 @@ interface iProps {
 
 function Sidebar(props: iProps): JSX.Element {
   const { className } = props;
-  const [isShowSidebar, setIsShowSidebar] = React.useState<boolean>(false);
-
+  const [state, dispatch] = useStore();
+  const { isShowSidebar } = state.layout || {};
   return (
     <div className={`sidebar ${isShowSidebar && "showSideBar"} ${className}`}>
       <div className="crossIcon">
-        {isShowSidebar ? <Cross onClick={() => setIsShowSidebar(false)} /> : <NavToggle onClick={() => setIsShowSidebar(true)} />}
+        {isShowSidebar ? (
+          <Cross onClick={() => dispatch(layoutActions.setShowSidebar(false))} />
+        ) : (
+          <NavToggle onClick={() => dispatch(layoutActions.setShowSidebar(true))} />
+        )}
       </div>
       <div className="logoHolder">
         <Logo />

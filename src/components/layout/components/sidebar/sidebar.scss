@@ -6,15 +6,18 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  color: #ea7f37;
+  color: var(--orange);
   position: absolute;
-  width: 80%;
-  left: -80%;
+  width: 85%;
+  left: -85%;
   transition: 400ms;
+  top: 0;
+  position: fixed;
   &.showSideBar {
     left: 0;
+    z-index: 10000;
   }
-  @media screen and (min-width: 800px) {
+  @media screen and (min-width: 1024px) {
     position: relative;
     width: 100%;
     left: 0%;
@@ -30,19 +33,19 @@
     justify-content: center;
     background: var(--bg-black-100);
     background: #232123;
-    @media screen and (min-width: 800px) {
+    @media screen and (min-width: 1024px) {
       display: none;
     }
     svg {
       height: 20px;
       width: 20px;
       path {
-        fill: #ea7f37;
+        fill: var(--orange);
       }
     }
   }
   .logoHolder {
-    top: 2rem;
+    top: 4rem;
     position: absolute;
   }
 }

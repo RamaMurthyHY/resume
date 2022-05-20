@@ -1,0 +1,95 @@
+.mainComponent {
+  display: grid;
+  height: 100%;
+  text-align: center;
+  @media screen and (min-width: 1024px) {
+    width: 90%;
+    grid-template-columns: 2fr 1fr;
+    align-items: center;
+    justify-content: center;
+    grid-gap: 20px;
+  }
+  .descriptionSection {
+    color: #fff;
+    order: 2;
+    .name {
+      margin-bottom: 20px;
+    }
+    .highLighter {
+      color: var(--orange);
+      white-space: nowrap;
+      font-family: "Inter-ExtraBold";
+    }
+    .specialization {
+      margin-bottom: 20px;
+    }
+    .description {
+      font-size: 18px;
+      width: 88%;
+      margin: auto;
+      margin-bottom: 30px;
+    }
+    @media screen and (min-width: 1024px) {
+      text-align: justify;
+      order: unset;
+      .name {
+        font-size: 2.2vw;
+      }
+      .specialization {
+        font-size: 2.2vw;
+      }
+      .description {
+        font-size: 1.2vw;
+        margin: unset;
+        margin-bottom: 30px;
+      }
+    }
+  }
+  .profilePicSection {
+    @media screen and (max-width: 1024px) {
+      order: 1;
+      margin: auto;
+      margin-bottom: 100px;
+      margin-top: 50px;
+    }
+    @media screen and (min-width: 1024px) {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+    }
+    .profileHolder {
+      height: 270px;
+      width: 250px;
+      position: relative;
+      .leftBottomAngle,
+      .rightTopAngle {
+        position: absolute;
+        height: 75px;
+        width: 75px;
+        background: transparent;
+        z-index: 1;
+      }
+      .leftBottomAngle {
+        left: -50px;
+        bottom: -50px;
+        border-left: 7px solid var(--orange);
+        border-bottom: 7px solid var(--orange);
+      }
+      .rightTopAngle {
+        right: -50px;
+        top: -50px;
+        border-top: 7px solid var(--orange);
+        border-right: 7px solid var(--orange);
+      }
+      @media screen and (min-width: 1024px) {
+        height: 374px;
+        width: 290px;
+      }
+      img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+      }
+    }
+  }
+}
