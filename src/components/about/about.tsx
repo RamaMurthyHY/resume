@@ -1,4 +1,6 @@
 import React from "react";
+import Button from "components/button/button";
+import Typewriter from "typewriter-effect";
 import PageHeading from "components/page-heading/pageHeading";
 import "./about.scss";
 
@@ -23,6 +25,21 @@ function About(props: iProps): JSX.Element {
       <h2 className="nameAndWork">
         I'm Rama Murthy and <span>Full stack developer</span>{" "}
       </h2>
+      <Typewriter
+        onInit={(typewriter) => {
+          typewriter
+            .typeString("Hello World!")
+            .callFunction(() => {
+              console.log("String typed out!");
+            })
+            .pauseFor(2500)
+            .deleteAll()
+            .callFunction(() => {
+              console.log("All strings were deleted");
+            })
+            .start();
+        }}
+      />
       <p className="aboutMe">
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis tenetur, ullam sed a consequuntur quis ipsum inventore officia dolor qui
         dolorem possimus reprehenderit magni ea quod alias. Iure, sunt soluta!. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum
@@ -38,6 +55,7 @@ function About(props: iProps): JSX.Element {
               <span className="info">{Object.values(i)[0]}</span>
             </div>
           ))}
+          <Button className="downloadCv" name="Download CV" />
         </div>
         <div className="skillsRate">
           {[1, 2, 3, 4].map(() => (
