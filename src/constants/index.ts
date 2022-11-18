@@ -1,8 +1,8 @@
-import Home from "components/svg/home";
-import User from "components/svg/user";
-import List from "components/svg/list";
-import Briefcase from "components/svg/briefcase";
-import AddressBook from "components/svg/addressBook";
+import Home from "../components/svg/home";
+import User from "../components/svg/user";
+import List from "../components/svg/list";
+import Briefcase from "../components/svg/briefcase";
+import AddressBook from "../components/svg/addressBook";
 import { Views } from "../enums/index";
 
 export const MENUS = [

@@ -1,5 +1,5 @@
 import { LAYOUT } from "../constants";
-import { Views } from "enums/index";
+import { Views } from "../../enums/index";
 
 export const layoutActions = {
   setActiveView: (view: Views) => ({

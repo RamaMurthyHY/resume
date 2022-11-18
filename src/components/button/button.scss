@@ -7,4 +7,7 @@
   font-size: 20px;
   cursor: pointer;
   background: var(--orange);
+  &:active {
+    filter: contrast(250%);
+  }
 }

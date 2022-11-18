@@ -1,8 +1,10 @@
 import React from "react";
 import "./main.scss";
+import { TypeAnimation } from "react-type-animation";
 import ProfilePic from "../../assets/images/profile-photo.jpg";
-import Button from "components/button/button";
-import { useStore } from "store";
+import Button from "../button/button";
+import { textAnimationSequence, description } from "./constants";
+import { useStore } from "../../store";
 
 interface iProps {
   className?: string;
@@ -20,12 +22,18 @@ function Main(props: iProps): JSX.Element {
           Hello, my name is <span className="highLighter">Rama Murthy</span>
         </h1>
         <h1 className="specialization">
-          I' m a <span className="highLighter">Full stack developer</span>
+          I' m a{" "}
+          <span className="highLighter">
+            <TypeAnimation
+              // Same String at the start will only be typed once, initially
+              sequence={textAnimationSequence}
+              speed={65} // Custom Speed from 1-99 - Default Speed: 40
+              wrapper="span" // Animation will be rendered as a <span>
+              repeat={Infinity} // Repeat this Animation Sequence infinitely
+            />
+          </span>
         </h1>
-        <p className="description">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos nesciunt quis illo quaerat. Modi aperiam magni aliquid sit, quisquam nihil
-          exercitationem praesentium adipisci velit, beatae minus vero enim placeat voluptatem?
-        </p>
+        <p className="description">{description}</p>
         <Button name="More about me" />
       </div>
       <div className="profilePicSection">

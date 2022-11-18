@@ -1,0 +1,30 @@
+.personalDetails {
+  flex-wrap: wrap;
+  grid-gap: 0 40px;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 40px;
+  @media screen and (min-width: 800px) {
+    display: grid;
+  }
+  .details {
+    flex-grow: 1;
+    border-bottom: 2px solid #5d5d5d;
+    padding: 7px 0;
+    .label {
+      font-family: "Inter-Bold";
+      margin-right: 5px;
+      text-transform: capitalize;
+    }
+    .info {
+      font-family: "Inter-Medium";
+    }
+  }
+  .downloadCv {
+    margin-top: 40px;
+    width: 100%;
+    white-space: nowrap;
+    @media screen and (min-width: 800px) {
+      width: fit-content;
+    }
+  }
+}

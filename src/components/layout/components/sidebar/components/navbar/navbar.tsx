@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import "./navbar.scss";
-import { MENUS } from "constants/index";
-import { useStore } from "store";
-import { layoutActions } from "store/actions";
+import { MENUS } from "../../../../../../constants/index";
+import { useStore } from "../../../../../../store";
+import { layoutActions } from "../../../../../../store/actions";
 
 interface iProps {
   className?: string;
