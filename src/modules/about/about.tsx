@@ -1,9 +1,9 @@
 import React from "react";
 import SkillRate from "./skill-rate/skillRate";
 import Bio from "./bio/bio";
-import MileStones from "../mile-stones/mileStones";
+import MileStones from "../../components/mile-stones/mileStones";
 import Typewriter from "typewriter-effect";
-import PageHeading from "../page-heading/pageHeading";
+import PageHeading from "../../components/page-heading/pageHeading";
 import "./about.scss";
 
 interface iProps {
@@ -52,13 +52,11 @@ function About(props: iProps): JSX.Element {
       />
 
       <p className="aboutMe">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis
-        tenetur, ullam sed a consequuntur quis ipsum inventore officia dolor qui
-        dolorem possimus reprehenderit magni ea quod alias. Iure, sunt soluta!.
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum officiis
-        repellat, maxime non magni illum, recusandae consequuntur autem esse
-        asperiores dolorem laborum, a deleniti ab. Dolorum nam harum eveniet
-        inventore?
+        Full Stack Developer with 4+ years of hands-on experience designing,
+        developing, and implementing application and solutions using a range of
+        technologies and programming languages. Seeking to leaverage broad
+        development experience and hands-on technical expertise in a challenging
+        role as a Full-stack developer
       </p>
 
       <div className="personalDetailsAndSkillsRate">

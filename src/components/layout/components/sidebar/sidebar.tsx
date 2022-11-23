@@ -15,6 +15,7 @@ function Sidebar(props: iProps): JSX.Element {
   const { className } = props;
   const [state, dispatch] = useStore();
   const { isShowSidebar } = state.layout || {};
+
   return (
     <div className={`sidebar ${isShowSidebar && "showSideBar"} ${className}`}>
       <div className="crossIcon">

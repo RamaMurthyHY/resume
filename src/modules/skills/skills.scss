@@ -1,0 +1,12 @@
+.skillsWrapper {
+  height: 100%;
+  overflow: auto;
+  padding: 16px;
+  .skillCardsWrapper {
+    display: grid;
+    grid-gap: 20px;
+    @media screen and (min-width: 800px) {
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+  }
+}

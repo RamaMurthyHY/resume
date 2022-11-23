@@ -1,5 +1,5 @@
 import React from "react";
-import PageHeading from "../page-heading/pageHeading";
+import PageHeading from "../../components/page-heading/pageHeading";
 
 interface iProps {
   className?: string;

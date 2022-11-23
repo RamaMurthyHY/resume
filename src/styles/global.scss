@@ -19,6 +19,17 @@ body {
   box-sizing: border-box;
 }
 
+::-webkit-scrollbar {
+  width: 7px; /* width of the entire scrollbar */
+}
+::-webkit-scrollbar-track {
+  background: rgb(233, 233, 233); /* color of the tracking area */
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 50px; /* roundness of the scroll thumb */
+  border: 6px solid rgb(182, 181, 181); /* creates padding around scroll thumb */
+}
+
 h1,
 h2,
 h3,

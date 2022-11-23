@@ -21,9 +21,15 @@
       color: var(--orange);
       white-space: nowrap;
       font-family: "Inter-ExtraBold";
+      // margin-left: 8px;
     }
     .specialization {
       margin-bottom: 20px;
+      .lineBreak {
+        @media screen and (min-width: 800px) {
+          display: none;
+        }
+      }
     }
     .description {
       font-size: 18px;

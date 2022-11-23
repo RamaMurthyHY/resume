@@ -1,10 +1,10 @@
 import React from "react";
 import "./index.scss";
 import Layout from "../components/layout/layout";
-import MainComponent from "../components/main/main";
-import AboutComponent from "../components/about/about";
-import SkillsComponent from "../components/skills/skills";
-import PortfolioComponent from "../components/portfolio/portfolio";
+import MainComponent from "./home/home";
+import AboutComponent from "./about/about";
+import SkillsComponent from "./skills/skills";
+import PortfolioComponent from "./portfolio/portfolio";
 import ContactComponent from "../components/contact/contact";
 
 import { useStore } from "../store";
