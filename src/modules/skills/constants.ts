@@ -14,6 +14,7 @@ import TypeOrm from "../../components/svg/typeOrm";
 import Postgress from "../../components/svg/postgress";
 import MySql from "../../components/svg/mySql";
 import GraphQl from "../../components/svg/graphql";
+import Redux from "../../components/svg/redux";
 
 export const SKILLS: iSkill[] = [
   {
@@ -41,6 +42,13 @@ export const SKILLS: iSkill[] = [
     description:
       "React is a free and open-source front-end JavaScript library for building user interfaces based on UI components. It is maintained by Meta and a community of individual developers and companies.",
   },
+  {
+    icon: Redux,
+    title: "Redux",
+    description:
+      "Redux is an open-source JavaScript library for managing and centralizing application state. It is most commonly used with libraries such as React or Angular for building user interfaces.",
+  },
+
   {
     icon: NextJs,
     title: "NextJs",

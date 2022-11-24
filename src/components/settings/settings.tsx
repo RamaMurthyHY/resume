@@ -32,7 +32,6 @@ function Settings() {
 
   const switchModeHandler = useCallback(() => {
     const root: any = document.querySelector(":root");
-    console.log("isDarkMore____", isDarkMode);
 
     if (!root) return;
 
@@ -48,10 +47,6 @@ function Settings() {
       dispatch(layoutActions.setIsDarkMode(true));
     }
   }, [isDarkMode]);
-
-  // useEffect(() => {
-  //   switchModeHandler();
-  // }, [isDarkMore]);
 
   return (
     <div className={`settingsWrapper ${isOpen && "isOpen"}`}>
