@@ -18,10 +18,11 @@
       width: 35px;
       height: 35px;
       border-radius: 35px;
-      background: var(--bg-theme);
+      background: var(--bg-theme2);
       display: flex;
       align-items: center;
       justify-content: center;
+      box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.1);
       cursor: pointer;
       .icon {
         width: 50%;
@@ -29,18 +30,18 @@
         display: block;
         cursor: pointer;
         path {
-          fill: #fff;
+          fill: var(--generalText);
         }
       }
     }
   }
   .themeColors {
-    background: var(--bg-theme);
+    background: var(--bg-theme2);
     flex-grow: 1;
     border-radius: 5px;
     padding: 6px;
     .themeColorsHeading {
-      color: #fff;
+      color: var(--generalText);
       margin-bottom: 5px;
     }
     .colorsList {

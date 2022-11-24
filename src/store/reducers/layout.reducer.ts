@@ -9,7 +9,9 @@ export const layoutReducer = (state = initialState.layout, action): any => {
     case LAYOUT.showSidebar: {
       return { ...state, isShowSidebar: action.payload };
     }
-
+    case LAYOUT.setIsDarkMode: {
+      return { ...state, isDarkMode: action.payload };
+    }
     default:
       return state;
   }

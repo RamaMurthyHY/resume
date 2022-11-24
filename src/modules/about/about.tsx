@@ -47,22 +47,6 @@ function About(props: iProps): JSX.Element {
       <h2 className="nameAndWork">
         I'm Rama Murthy and <span>Full stack developer</span>{" "}
       </h2>
-      <Typewriter
-        onInit={(typewriter) => {
-          typewriter
-            .typeString("Hello World!")
-            .callFunction(() => {
-              console.log("String typed out!");
-            })
-            .pauseFor(2500)
-            .deleteAll()
-            .callFunction(() => {
-              console.log("All strings were deleted");
-            })
-            .start();
-        }}
-      />
-
       <p className="aboutMe">{ABOUT_ME}</p>
 
       <div className="personalDetailsAndSkillsRate">

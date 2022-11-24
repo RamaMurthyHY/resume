@@ -1,8 +1,10 @@
-import React, { useState } from "react";
+import React, { useCallback, useEffect, useState } from "react";
 import Gear from "../svg/gear";
 import Sun from "../svg/sun";
 import Moon from "../svg/moon";
 import "./settings.scss";
+import { useStore } from "../../store";
+import { layoutActions } from "../../store/actions";
 
 const COLORS = [
   { color: "#c4df08" },
@@ -15,8 +17,41 @@ const COLORS = [
   { color: "#8686f5" },
 ];
 
+const whiteMode1 = "#ececec";
+const whiteMode2 = "#f8f8f8";
+const whiteModeText = "#2d4159";
+
+const darkMode1 = "#161516";
+const darkMode2 = "#2a292a";
+const darkModeText = "#ececec";
+
 function Settings() {
   const [isOpen, setIsOpen] = useState<boolean>(false);
+  const [state, dispatch] = useStore();
+  const { isDarkMode } = state.layout;
+
+  const switchModeHandler = useCallback(() => {
+    const root: any = document.querySelector(":root");
+    console.log("isDarkMore____", isDarkMode);
+
+    if (!root) return;
+
+    if (isDarkMode) {
+      root.style.setProperty("--bg-theme", whiteMode1);
+      root.style.setProperty("--bg-theme2", whiteMode2);
+      root.style.setProperty("--generalText", whiteModeText);
+      dispatch(layoutActions.setIsDarkMode(false));
+    } else {
+      root.style.setProperty("--bg-theme", darkMode1);
+      root.style.setProperty("--bg-theme2", darkMode2);
+      root.style.setProperty("--generalText", darkModeText);
+      dispatch(layoutActions.setIsDarkMode(true));
+    }
+  }, [isDarkMode]);
+
+  // useEffect(() => {
+  //   switchModeHandler();
+  // }, [isDarkMore]);
 
   return (
     <div className={`settingsWrapper ${isOpen && "isOpen"}`}>
@@ -24,12 +59,11 @@ function Settings() {
         <div className={`iconWrapper `} onClick={() => setIsOpen(!isOpen)}>
           <Gear className="icon" />
         </div>
-        <div className={`iconWrapper `}>
-          <Sun className="icon" />
+        <div className={`iconWrapper `} onClick={switchModeHandler}>
+          {isDarkMode ? <Sun className="icon" /> : <Moon className="icon" />}
         </div>
       </div>
       <div className="themeColors">
-        {/* <p className="themeColorsHeading">Theme colors</p> */}
         <div className="colorsList">
           {COLORS.map((color) => (
             <div

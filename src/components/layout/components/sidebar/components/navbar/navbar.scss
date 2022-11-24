@@ -4,7 +4,7 @@
     border-bottom: 1px solid #4d4d4d;
     padding: 5px 8px;
     margin-bottom: 15px;
-    color: #fff;
+    color: var(--generalText);
     font-size: 22px;
     transition: 300ms;
     font-family: "Inter-Bold";
@@ -20,7 +20,7 @@
       margin-right: 10px;
       path {
         transition: 300ms;
-        fill: #fff;
+        fill: var(--generalText);
       }
     }
     &:hover,

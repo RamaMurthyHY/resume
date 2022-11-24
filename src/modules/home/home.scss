@@ -11,7 +11,7 @@
     grid-gap: 20px;
   }
   .descriptionSection {
-    color: #fff;
+    color: var(--generalText);
     order: 2;
 
     .name {
@@ -47,7 +47,7 @@
         font-size: 2.2vw;
       }
       .description {
-        font-size: 1.2vw;
+        font-size: 18px;
         margin: unset;
         margin-bottom: 30px;
       }
@@ -97,6 +97,8 @@
         height: 100%;
         width: 100%;
         object-fit: cover;
+        box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.1);
+        border-radius: 4px;
       }
     }
   }

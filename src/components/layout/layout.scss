@@ -7,10 +7,8 @@
   .layoutBody {
     width: 100%;
     min-height: 100%;
-    background: var(--bg-black-900);
-    background: #161516;
-
-    // padding: 1rem 0 0 1rem;
+    background: var(--bg-theme);
+    transition: 400ms;
     @media screen and (max-width: 1024px) {
       padding-top: 15%;
       padding-bottom: 30%;

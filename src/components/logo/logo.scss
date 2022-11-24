@@ -4,7 +4,7 @@
     font-weight: 700;
     position: relative;
     font-family: "Inter-ExtraBold";
-    color: #fff;
+    color: var(--generalText);
     @media screen and (min-width: 1024px) {
       font-size: 2.7vw;
     }

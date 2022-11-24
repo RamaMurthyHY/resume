@@ -1,19 +1,19 @@
 .mileStones {
   width: 100%;
-  color: #fff;
+  color: var(--generalText);
   @media screen and (max-width: 800px) {
     margin-bottom: 20px;
   }
   h2 {
     margin-bottom: 16px;
-    color: #fff;
+    color: var(--generalText);
   }
   .bulletListContainer {
     padding: 10px;
     padding-right: 16px;
-    background: var(--bg-theme);
+    background: var(--bg-theme2);
     border-radius: 8px;
-    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.2);
     .bulletCard {
       position: relative;
       padding-left: 22px;
@@ -44,7 +44,7 @@
           height: 18px;
           width: 18px;
           path {
-            fill: #fff;
+            fill: var(--generalText);
           }
         }
       }

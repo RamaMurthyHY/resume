@@ -10,6 +10,7 @@ body {
   font-family: "Inter-Light";
   text-align: left;
   scrollbar-width: 5px;
+  transition: 800ms;
 }
 * {
   margin: 0;
@@ -50,6 +51,8 @@ p {
   --text-black-900: #302e4d;
   --text-black-700: #504e70;
   --theme1: #ff7213;
-  --bg-theme: #2a292a;
-  --generalText: #fff;
+  --bg-theme: #ececec;
+  --bg-theme2: #f8f8f8;
+  // --bg-theme: #2a292a;
+  --generalText: #2d4159;
 }

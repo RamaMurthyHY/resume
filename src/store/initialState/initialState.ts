@@ -3,5 +3,6 @@ export const initialState = {
   layout: {
     activeView: Views.Home,
     isShowSidebar: false,
+    isDarkMode: false,
   },
 };

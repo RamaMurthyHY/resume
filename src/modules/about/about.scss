@@ -3,7 +3,7 @@
   overflow: auto;
   padding: 16px;
   .nameAndWork {
-    color: #fff;
+    color: var(--generalText);
     margin-bottom: 20px;
     span {
       color: var(--theme1);
@@ -11,12 +11,12 @@
     }
   }
   .aboutMe {
-    color: #fff;
+    color: var(--generalText);
     margin-bottom: 40px;
     text-align: justify;
   }
   .personalDetailsAndSkillsRate {
-    color: #fff;
+    color: var(--generalText);
     grid-template-columns: 3fr 2fr;
     align-items: flex-start;
     grid-gap: 40px;

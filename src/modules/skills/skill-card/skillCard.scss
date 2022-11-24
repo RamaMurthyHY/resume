@@ -1,14 +1,15 @@
 .skillCard {
   padding: 20px;
   border-radius: 8px;
-  background: var(--bg-theme);
-  box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.2);
-  color: #fff;
+  background: var(--bg-theme2);
+  box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.1);
+  color: var(--generalText);
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   transition: 400ms;
   cursor: default;
+  border: 1px solid var(--theme1);
   &:hover {
     box-shadow: unset;
   }
@@ -20,7 +21,7 @@
     border: 1px solid var(--theme1);
     border-radius: 6px;
     padding: 3px;
-    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.1);
+    // box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.1);
     path {
       fill: var(--theme1);
       width: 100%;

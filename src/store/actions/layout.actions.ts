@@ -10,4 +10,8 @@ export const layoutActions = {
     type: LAYOUT.showSidebar,
     payload: show,
   }),
+  setIsDarkMode: (show: boolean) => ({
+    type: LAYOUT.setIsDarkMode,
+    payload: show,
+  }),
 };
