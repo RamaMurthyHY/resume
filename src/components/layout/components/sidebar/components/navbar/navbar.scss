@@ -25,10 +25,10 @@
     }
     &:hover,
     &.activeNav {
-      color: var(--orange);
+      color: var(--theme1);
       svg {
         path {
-          fill: var(--orange);
+          fill: var(--theme1);
         }
       }
     }

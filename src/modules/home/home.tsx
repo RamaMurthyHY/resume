@@ -41,6 +41,7 @@ function Home(props: iProps): JSX.Element {
           onClick={() => {
             dispatch(layoutActions.setActiveView(Views.About));
             dispatch(layoutActions.setShowSidebar(false));
+            window.scrollTo(0, 0);
           }}
         />
       </div>

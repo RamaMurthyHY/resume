@@ -1,0 +1,62 @@
+.settingsWrapper {
+  position: fixed;
+  right: 16px;
+  top: 16px;
+  z-index: 10000;
+  display: flex;
+  grid-gap: 16px;
+  transition: 400ms;
+  right: -153px;
+  &.isOpen {
+    right: 20px;
+  }
+  .settingsIcons {
+    display: flex;
+    flex-direction: column;
+    grid-gap: 10px;
+    .iconWrapper {
+      width: 35px;
+      height: 35px;
+      border-radius: 35px;
+      background: var(--bg-theme);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      .icon {
+        width: 50%;
+        height: 50%;
+        display: block;
+        cursor: pointer;
+        path {
+          fill: #fff;
+        }
+      }
+    }
+  }
+  .themeColors {
+    background: var(--bg-theme);
+    flex-grow: 1;
+    border-radius: 5px;
+    padding: 6px;
+    .themeColorsHeading {
+      color: #fff;
+      margin-bottom: 5px;
+    }
+    .colorsList {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      grid-gap: 5px;
+      height: 100%;
+      width: 140px;
+      .colorSample {
+        height: 30px;
+        width: 30px;
+        border-radius: 30px;
+        cursor: pointer;
+      }
+    }
+  }
+}
