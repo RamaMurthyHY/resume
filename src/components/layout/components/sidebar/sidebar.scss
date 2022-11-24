@@ -46,5 +46,10 @@
   .logoHolder {
     top: 4rem;
     position: absolute;
+    @media screen and (max-width: 800px) and (orientation: landscape) {
+      top: 32px;
+      left: 50px;
+      position: absolute;
+    }
   }
 }
