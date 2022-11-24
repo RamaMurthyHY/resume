@@ -1,0 +1,37 @@
+.accordionContainer {
+  width: 100%;
+  border-radius: 8px;
+  color: #fff;
+  user-select: none;
+  .accordionHeaderWrapper {
+    cursor: pointer;
+    padding: 13px;
+    display: flex;
+    justify-content: space-between;
+    background: var(--grey2);
+    .dropdownIcon {
+      width: 25px;
+      height: 25px;
+      transition: 400ms;
+      &.isOpen {
+        transform: scale(-1, -1);
+      }
+      path {
+        fill: var(--orange);
+      }
+    }
+  }
+  .accordionBodyWrapper {
+    max-height: 0px;
+    overflow: hidden;
+    transition: 400ms;
+    padding: 0 13px;
+    border: 3px solid var(--grey2);
+    // border: 3px solid red;
+    border-top: 0;
+    &.isOpen {
+      padding: 13px;
+      max-height: 500px;
+    }
+  }
+}

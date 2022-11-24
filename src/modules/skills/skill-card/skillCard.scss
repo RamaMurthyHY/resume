@@ -1,7 +1,7 @@
 .skillCard {
   padding: 20px;
   border-radius: 8px;
-  background: #232123;
+  background: var(--grey2);
   box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.2);
   color: #fff;
   display: flex;
@@ -34,8 +34,8 @@
     font-weight: 550;
   }
   .skillDescription {
-    text-align: justify;
-    font-size: 13px;
+    text-align: center;
+    font-size: 14px;
     overflow: hidden;
     text-overflow: ellipsis;
     display: -webkit-box;

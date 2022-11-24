@@ -4,7 +4,6 @@ import "./bio.scss";
 
 const PERSONAL_INFORMATION = [
   { birthday: "18 May 1991" },
-  { age: "31" },
   { education: "MCA" },
   { email: "reach.rambymail@gmail.com" },
   { phone: "+91 87489 61773" },

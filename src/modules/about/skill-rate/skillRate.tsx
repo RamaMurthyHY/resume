@@ -14,6 +14,7 @@ function SkillRate() {
           <div className="progress">
             <div style={{ width: `${skill.expertize}%` }}>
               <div className="glowingBar" />
+              <div className="glowingBar2" />
             </div>
           </div>
         </div>

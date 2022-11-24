@@ -1,0 +1,32 @@
+.projectsHandled {
+  height: 100%;
+  overflow: auto;
+  padding: 16px;
+  .pageSubHeading {
+    color: #fff;
+    margin-bottom: 10px;
+  }
+  .accordionCust {
+    margin-bottom: 10px;
+    .specifications {
+      margin-bottom: 5px;
+      .specificationKey {
+        display: inline-block;
+        font-weight: 600;
+      }
+      span:nth-child(2) {
+        margin-left: 5px;
+      }
+    }
+    .specifications {
+      display: flex;
+      .specificationKey {
+        white-space: nowrap;
+      }
+      p {
+        margin-left: 5px;
+        text-align: justify;
+      }
+    }
+  }
+}

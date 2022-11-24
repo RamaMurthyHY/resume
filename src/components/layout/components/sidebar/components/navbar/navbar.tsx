@@ -22,6 +22,7 @@ function Navbar(props: iProps): JSX.Element {
             onClick={() => {
               dispatch(layoutActions.setActiveView(i.view));
               dispatch(layoutActions.setShowSidebar(false));
+              window.scrollTo(0, 0);
             }}
           >
             <>

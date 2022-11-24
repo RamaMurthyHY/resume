@@ -13,6 +13,7 @@ import SequelizeJs from "../../components/svg/sequelize";
 import TypeOrm from "../../components/svg/typeOrm";
 import Postgress from "../../components/svg/postgress";
 import MySql from "../../components/svg/mySql";
+import GraphQl from "../../components/svg/graphql";
 
 export const SKILLS: iSkill[] = [
   {
@@ -59,6 +60,12 @@ export const SKILLS: iSkill[] = [
       "Fastify is a web framework highly focused on providing the best developer experience with the least overhead and a powerful plugin architecture, inspired by Hapi and Express. As far as we know, it is one of the fastest web frameworks in town.",
   },
   {
+    icon: GraphQl,
+    title: "GraphQL",
+    description:
+      "GraphQL is an open-source data query and manipulation language for APIs, and a runtime for fulfilling queries with existing data. GraphQL was developed internally by Facebook in 2012 before being publicly released in 2015.",
+  },
+  {
     icon: Postgress,
     title: "PostgreSQL",
     description:
@@ -80,7 +87,7 @@ export const SKILLS: iSkill[] = [
     icon: TypeOrm,
     title: "TypeORM",
     description:
-      "TypeORM is a TypeScript ORM (object-relational mapper) library that makes it easy to link your TypeScript application up to a relational database database. TypeORM supports MySQL, SQlite, Postgres, MS SQL Server, and a host of other traditional options.",
+      "TypeORM is a TypeScript ORM (object-relational mapper) library that makes it easy to link your TypeScript application up to a relational database. TypeORM supports MySQL, SQlite, Postgres, MS SQL Server, and a host of other traditional options.",
   },
   {
     icon: HTML,

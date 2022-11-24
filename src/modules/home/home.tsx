@@ -3,10 +3,11 @@ import "./home.scss";
 import { TypeAnimation } from "react-type-animation";
 import ProfilePic from "../../assets/images/profile-photo.jpg";
 import Button from "../../components/button/button";
+import { ABOUT_ME } from "../../constants";
 import { useStore } from "../../store";
 import { Views } from "../../enums/index";
 import { layoutActions } from "../../store/actions";
-import { textAnimationSequence, description } from "./constants";
+import { textAnimationSequence } from "./constants";
 
 interface iProps {
   className?: string;
@@ -34,7 +35,7 @@ function Home(props: iProps): JSX.Element {
             repeat={Infinity} // Repeat this Animation Sequence infinitely
           />
         </h1>
-        <p className="description">{description}</p>
+        <p className="description">{ABOUT_ME}</p>
         <Button
           name="More about me"
           onClick={() => {
