@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "9f1baf5ee7cf1832d563",
-    "url": "/resume/static/css/main.0aa98378.chunk.css"
+    "revision": "08768522bfad45a19b8f",
+    "url": "/resume/static/css/main.bc4d9216.chunk.css"
   },
   {
-    "revision": "9f1baf5ee7cf1832d563",
-    "url": "/resume/static/js/main.f1415e8f.chunk.js"
+    "revision": "08768522bfad45a19b8f",
+    "url": "/resume/static/js/main.4a5d05d0.chunk.js"
   },
   {
     "revision": "083bdd04487f20bc1c8f",
@@ -24,12 +24,16 @@ self.__precacheManifest = [
     "url": "/resume/static/media/profile-photo.29df7aca.jpg"
   },
   {
-    "revision": "f482d38d962b4d95853bef956ff6dd83",
-    "url": "/resume/static/media/Inter-Thin.f482d38d.ttf"
+    "revision": "3e87064b7567bef4ecd2ba977ce028bc",
+    "url": "/resume/static/media/Inter-SemiBold.3e87064b.ttf"
   },
   {
-    "revision": "1aa99aa25c72307cb7f16fae35e8c9d1",
-    "url": "/resume/static/media/Inter-Medium.1aa99aa2.ttf"
+    "revision": "eba360005eef21ac6807e45dc8422042",
+    "url": "/resume/static/media/Inter-Regular.eba36000.ttf"
+  },
+  {
+    "revision": "f482d38d962b4d95853bef956ff6dd83",
+    "url": "/resume/static/media/Inter-Thin.f482d38d.ttf"
   },
   {
     "revision": "d4be01c95657978131342b1dcf829a45",
@@ -40,12 +44,12 @@ self.__precacheManifest = [
     "url": "/resume/static/media/Inter-ExtraLight.819a7670.ttf"
   },
   {
-    "revision": "3e87064b7567bef4ecd2ba977ce028bc",
-    "url": "/resume/static/media/Inter-SemiBold.3e87064b.ttf"
+    "revision": "82c8c1cf127220ccd9914e5dc739de28",
+    "url": "/resume/static/media/Inter-ExtraBold.82c8c1cf.ttf"
   },
   {
-    "revision": "eba360005eef21ac6807e45dc8422042",
-    "url": "/resume/static/media/Inter-Regular.eba36000.ttf"
+    "revision": "1aa99aa25c72307cb7f16fae35e8c9d1",
+    "url": "/resume/static/media/Inter-Medium.1aa99aa2.ttf"
   },
   {
     "revision": "cef517a165e8157d9f14a0911190948d",
@@ -56,11 +60,7 @@ self.__precacheManifest = [
     "url": "/resume/static/media/Inter-Black.c6dacb6b.ttf"
   },
   {
-    "revision": "82c8c1cf127220ccd9914e5dc739de28",
-    "url": "/resume/static/media/Inter-ExtraBold.82c8c1cf.ttf"
-  },
-  {
-    "revision": "68adfc20a91951fbeca7b54dc834acc2",
+    "revision": "301ad9ee915fab51eb7ba710f6d3e643",
     "url": "/resume/index.html"
   }
 ];
