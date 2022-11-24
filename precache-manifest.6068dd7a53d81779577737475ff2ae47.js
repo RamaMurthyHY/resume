@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "1b71657f228f574e7cd4",
+    "revision": "7b3480d12310ce4975a2",
     "url": "/resume/static/css/main.3cef57b6.chunk.css"
   },
   {
-    "revision": "1b71657f228f574e7cd4",
-    "url": "/resume/static/js/main.912a1b3e.chunk.js"
+    "revision": "7b3480d12310ce4975a2",
+    "url": "/resume/static/js/main.bab0f6ed.chunk.js"
   },
   {
     "revision": "083bdd04487f20bc1c8f",
@@ -28,20 +28,12 @@ self.__precacheManifest = [
     "url": "/resume/static/media/Inter-SemiBold.3e87064b.ttf"
   },
   {
-    "revision": "eba360005eef21ac6807e45dc8422042",
-    "url": "/resume/static/media/Inter-Regular.eba36000.ttf"
-  },
-  {
     "revision": "1aa99aa25c72307cb7f16fae35e8c9d1",
     "url": "/resume/static/media/Inter-Medium.1aa99aa2.ttf"
   },
   {
-    "revision": "f482d38d962b4d95853bef956ff6dd83",
-    "url": "/resume/static/media/Inter-Thin.f482d38d.ttf"
-  },
-  {
-    "revision": "cef517a165e8157d9f14a0911190948d",
-    "url": "/resume/static/media/Inter-Bold.cef517a1.ttf"
+    "revision": "eba360005eef21ac6807e45dc8422042",
+    "url": "/resume/static/media/Inter-Regular.eba36000.ttf"
   },
   {
     "revision": "d4be01c95657978131342b1dcf829a45",
@@ -52,6 +44,10 @@ self.__precacheManifest = [
     "url": "/resume/static/media/Inter-ExtraLight.819a7670.ttf"
   },
   {
+    "revision": "cef517a165e8157d9f14a0911190948d",
+    "url": "/resume/static/media/Inter-Bold.cef517a1.ttf"
+  },
+  {
     "revision": "c6dacb6bcfcd747bba440bf2fbd2c85a",
     "url": "/resume/static/media/Inter-Black.c6dacb6b.ttf"
   },
@@ -60,7 +56,11 @@ self.__precacheManifest = [
     "url": "/resume/static/media/Inter-ExtraBold.82c8c1cf.ttf"
   },
   {
-    "revision": "a304242680f33c4f76cbbcd6683cd63c",
+    "revision": "f482d38d962b4d95853bef956ff6dd83",
+    "url": "/resume/static/media/Inter-Thin.f482d38d.ttf"
+  },
+  {
+    "revision": "6dcd7a153f9082b4ea28a10456c53a27",
     "url": "/resume/index.html"
   }
 ];
