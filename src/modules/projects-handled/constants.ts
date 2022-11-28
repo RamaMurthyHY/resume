@@ -4,7 +4,7 @@ export const projectsHandled = [
     role: "Full stack developer",
     skills: "ReactJs, Typescript, Sass, GraphQL, NodeJs, SinageOs, Office-365",
     description:
-      "It is content management app(CMS) an that is used to manage content, allowing multiple contributors to create, edit and publish. Content in a CMS is typically stored in a database and displayed in a presentation layer based on a set of templates like a website. SinageOs has used basically it is digital signage unification software for content management systems to access and control any digital signage hardware.",
+      "It is a content management app(CMS) and that is used to manage content, allowing multiple contributors to create, edit and publish. Content in a CMS is typically stored in a database and displayed in a presentation layer based on a set of templates like a website. SinageOs has used basically it is digital signage unification software for content management systems to access and control any digital signage hardware.",
   },
   {
     title: "Weebl",
