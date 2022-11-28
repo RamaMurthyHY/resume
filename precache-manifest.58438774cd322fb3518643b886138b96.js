@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "08768522bfad45a19b8f",
+    "revision": "2dbad8e170e4fc43d90f",
     "url": "/resume/static/css/main.bc4d9216.chunk.css"
   },
   {
-    "revision": "08768522bfad45a19b8f",
-    "url": "/resume/static/js/main.4a5d05d0.chunk.js"
+    "revision": "2dbad8e170e4fc43d90f",
+    "url": "/resume/static/js/main.2a71b98d.chunk.js"
   },
   {
     "revision": "083bdd04487f20bc1c8f",
@@ -24,6 +24,10 @@ self.__precacheManifest = [
     "url": "/resume/static/media/profile-photo.29df7aca.jpg"
   },
   {
+    "revision": "f482d38d962b4d95853bef956ff6dd83",
+    "url": "/resume/static/media/Inter-Thin.f482d38d.ttf"
+  },
+  {
     "revision": "3e87064b7567bef4ecd2ba977ce028bc",
     "url": "/resume/static/media/Inter-SemiBold.3e87064b.ttf"
   },
@@ -32,8 +36,8 @@ self.__precacheManifest = [
     "url": "/resume/static/media/Inter-Regular.eba36000.ttf"
   },
   {
-    "revision": "f482d38d962b4d95853bef956ff6dd83",
-    "url": "/resume/static/media/Inter-Thin.f482d38d.ttf"
+    "revision": "1aa99aa25c72307cb7f16fae35e8c9d1",
+    "url": "/resume/static/media/Inter-Medium.1aa99aa2.ttf"
   },
   {
     "revision": "d4be01c95657978131342b1dcf829a45",
@@ -44,14 +48,6 @@ self.__precacheManifest = [
     "url": "/resume/static/media/Inter-ExtraLight.819a7670.ttf"
   },
   {
-    "revision": "82c8c1cf127220ccd9914e5dc739de28",
-    "url": "/resume/static/media/Inter-ExtraBold.82c8c1cf.ttf"
-  },
-  {
-    "revision": "1aa99aa25c72307cb7f16fae35e8c9d1",
-    "url": "/resume/static/media/Inter-Medium.1aa99aa2.ttf"
-  },
-  {
     "revision": "cef517a165e8157d9f14a0911190948d",
     "url": "/resume/static/media/Inter-Bold.cef517a1.ttf"
   },
@@ -60,7 +56,11 @@ self.__precacheManifest = [
     "url": "/resume/static/media/Inter-Black.c6dacb6b.ttf"
   },
   {
-    "revision": "301ad9ee915fab51eb7ba710f6d3e643",
+    "revision": "82c8c1cf127220ccd9914e5dc739de28",
+    "url": "/resume/static/media/Inter-ExtraBold.82c8c1cf.ttf"
+  },
+  {
+    "revision": "890e4a3ce6d180e2b008f5c933416692",
     "url": "/resume/index.html"
   }
 ];
