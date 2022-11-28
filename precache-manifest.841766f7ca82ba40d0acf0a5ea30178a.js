@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "2dbad8e170e4fc43d90f",
-    "url": "/resume/static/css/main.bc4d9216.chunk.css"
+    "revision": "f3eb8f60c1746c0083ee",
+    "url": "/resume/static/css/main.9ad19ee2.chunk.css"
   },
   {
-    "revision": "2dbad8e170e4fc43d90f",
-    "url": "/resume/static/js/main.2a71b98d.chunk.js"
+    "revision": "f3eb8f60c1746c0083ee",
+    "url": "/resume/static/js/main.1f246d56.chunk.js"
   },
   {
     "revision": "083bdd04487f20bc1c8f",
@@ -28,14 +28,6 @@ self.__precacheManifest = [
     "url": "/resume/static/media/Inter-Thin.f482d38d.ttf"
   },
   {
-    "revision": "3e87064b7567bef4ecd2ba977ce028bc",
-    "url": "/resume/static/media/Inter-SemiBold.3e87064b.ttf"
-  },
-  {
-    "revision": "eba360005eef21ac6807e45dc8422042",
-    "url": "/resume/static/media/Inter-Regular.eba36000.ttf"
-  },
-  {
     "revision": "1aa99aa25c72307cb7f16fae35e8c9d1",
     "url": "/resume/static/media/Inter-Medium.1aa99aa2.ttf"
   },
@@ -46,6 +38,14 @@ self.__precacheManifest = [
   {
     "revision": "819a76705047d6474cb529a319e74bbc",
     "url": "/resume/static/media/Inter-ExtraLight.819a7670.ttf"
+  },
+  {
+    "revision": "3e87064b7567bef4ecd2ba977ce028bc",
+    "url": "/resume/static/media/Inter-SemiBold.3e87064b.ttf"
+  },
+  {
+    "revision": "eba360005eef21ac6807e45dc8422042",
+    "url": "/resume/static/media/Inter-Regular.eba36000.ttf"
   },
   {
     "revision": "cef517a165e8157d9f14a0911190948d",
@@ -60,7 +60,7 @@ self.__precacheManifest = [
     "url": "/resume/static/media/Inter-ExtraBold.82c8c1cf.ttf"
   },
   {
-    "revision": "890e4a3ce6d180e2b008f5c933416692",
+    "revision": "9db96e3a4d63ec225ab6efe8861b6904",
     "url": "/resume/index.html"
   }
 ];
