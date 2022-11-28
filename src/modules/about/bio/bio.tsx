@@ -19,7 +19,12 @@ function Bio() {
           <span className="info">{Object.values(i)[0]}</span>
         </div>
       ))}
-      <Button className="downloadCv" name="Download CV" />
+      <a
+        href="src\assets\docs\Rama_murthy_HY_Full_stack_developer.pdf"
+        download="MyExampleDoc"
+      >
+        <Button className="downloadCv" name="Download CV" />
+      </a>
     </div>
   );
 }
