@@ -21,9 +21,19 @@
     }
   }
   .downloadCv {
-    margin-top: 40px;
     width: 100%;
+    display: inline-block;
+    margin-top: 40px;
     white-space: nowrap;
+    border: 0;
+    padding: 15px 40px;
+    border-radius: 30px;
+    color: var(--generalText);
+    font-family: "Inter-Medium";
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+    background: var(--theme1);
     @media screen and (min-width: 800px) {
       width: fit-content;
     }

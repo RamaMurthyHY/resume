@@ -20,10 +20,12 @@ function Bio() {
         </div>
       ))}
       <a
-        href="src\assets\docs\Rama_murthy_HY_Full_stack_developer.pdf"
-        download="MyExampleDoc"
+        className="downloadCv"
+        href="resume.pdf"
+        download={`Rama_murthy_HY_Full_stack_developer-${Date.now()}.pdf`}
       >
-        <Button className="downloadCv" name="Download CV" />
+        Resume
+        {/* <Button className="downloadCv" name="Download CV" /> */}
       </a>
     </div>
   );

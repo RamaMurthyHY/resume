@@ -28,7 +28,8 @@ const darkModeText = "#ececec";
 function Settings() {
   const [isOpen, setIsOpen] = useState<boolean>(false);
   const [state, dispatch] = useStore();
-  const { isDarkMode } = state.layout;
+  const { isDarkMode = false } = state.layout;
+  console.log("isDarkMode____", isDarkMode);
 
   const switchModeHandler = useCallback(() => {
     const root: any = document.querySelector(":root");
@@ -47,6 +48,10 @@ function Settings() {
       dispatch(layoutActions.setIsDarkMode(true));
     }
   }, [isDarkMode]);
+
+  useEffect(() => {
+    if (isDarkMode) switchModeHandler();
+  }, []);
 
   return (
     <div className={`settingsWrapper ${isOpen && "isOpen"}`}>
