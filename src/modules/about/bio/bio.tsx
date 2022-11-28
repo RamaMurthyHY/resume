@@ -11,6 +11,7 @@ const PERSONAL_INFORMATION = [
 ];
 
 function Bio() {
+  const resumeFileName = `Rama_murthy_HY_Full_stack_developer-${Date.now()}.pdf`;
   return (
     <div className="personalDetails">
       {PERSONAL_INFORMATION.map((i) => (
@@ -21,7 +22,7 @@ function Bio() {
       ))}
       <a
         className="downloadCv"
-        href="resume.pdf"
+        href="Rama_murthy_HY_Full_stack_developer.pdf"
         download={`Rama_murthy_HY_Full_stack_developer-${Date.now()}.pdf`}
       >
         Resume
