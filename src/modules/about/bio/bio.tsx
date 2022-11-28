@@ -25,7 +25,7 @@ function Bio() {
         href="Rama_murthy_HY_Full_stack_developer.pdf"
         download={`Rama_murthy_HY_Full_stack_developer-${Date.now()}.pdf`}
       >
-        Resume
+        Download Resume
         {/* <Button className="downloadCv" name="Download CV" /> */}
       </a>
     </div>
