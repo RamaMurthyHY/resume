@@ -13,7 +13,7 @@ import { Views } from "../enums";
 function Home(): JSX.Element {
   const [state] = useStore();
   const { layout } = state || {};
-  console.log();
+
   const { Home, About, Skills, Projects, Contact } = Views;
   return (
     <Layout>
