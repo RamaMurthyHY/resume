@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "./navbar.scss";
 import { MENUS } from "../../../../../../constants/index";
 import { useStore } from "../../../../../../store";
@@ -15,7 +15,6 @@ function Navbar(props: iProps): JSX.Element {
   return (
     <ul className={`navbar ${className}`}>
       {MENUS.map((i) => {
-        const Icon = i.icon;
         return (
           <li
             className={(layout.activeView === i.view && "activeNav") || ""}

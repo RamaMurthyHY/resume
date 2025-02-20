@@ -47,11 +47,11 @@ function Settings() {
       root.style.setProperty("--generalText", darkModeText);
       dispatch(layoutActions.setIsDarkMode(true));
     }
-  }, [isDarkMode]);
+  }, [isDarkMode, dispatch]);
 
   useEffect(() => {
     if (isDarkMode) switchModeHandler();
-  }, []);
+  }, [isDarkMode, switchModeHandler]);
 
   return (
     <div className={`settingsWrapper ${isOpen && "isOpen"}`}>

@@ -15,9 +15,7 @@ interface iProps {
 
 function Home(props: iProps): JSX.Element {
   const { className } = props;
-  const [state, dispatch] = useStore();
-  const { layout } = state;
-  console.log({ state });
+  const [, dispatch] = useStore();
 
   return (
     <div className={`mainComponent ${className}`}>

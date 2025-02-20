@@ -1,5 +1,4 @@
 import React from "react";
-import Events from "../../../components/svg/events";
 import { iSkill } from "../../../types";
 import "./skillCard.scss";
 
