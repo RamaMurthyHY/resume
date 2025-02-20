@@ -3,8 +3,6 @@ import SkillRate from "./skill-rate/skillRate";
 import Bio from "./bio/bio";
 import { ABOUT_ME } from "../../constants";
 import MileStones from "../../components/mile-stones/mileStones";
-import Button from "../../components/button/button";
-import Typewriter from "typewriter-effect";
 import PageHeading from "../../components/page-heading/pageHeading";
 import "./about.scss";
 
@@ -37,6 +35,13 @@ const experience = [
     description:
       "I have started currier at 2018 as a Junior Software Development Engineer, In Code Matrix Software India Pvt Ltd, Bangalore, Initially started as a React developer and over the period of time started exploring things and became full stack developer",
   },
+  {
+    id: "312312mdhuwd",
+    time: "2022-2025",
+    mileStone: "Full Stack Developer",
+    description:
+      "I have enhanced my skills got more hands on experience by continuing my currier with the Enlume Technologies Pvt Ltd, Hyderabad",
+  },
 ];
 
 function About(props: iProps): JSX.Element {
@@ -52,7 +57,6 @@ function About(props: iProps): JSX.Element {
       <div className="personalDetailsAndSkillsRate">
         <Bio />
         <SkillRate />
-        {/* <Button className="downloadCv" name="Download CV" /> */}
       </div>
       <div className="milestonesWrapperGrid">
         <MileStones heading="Education" milestones={education} />
