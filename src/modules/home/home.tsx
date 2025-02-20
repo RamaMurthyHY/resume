@@ -23,7 +23,7 @@ function Home(props: iProps): JSX.Element {
     <div className={`mainComponent ${className}`}>
       <div className="descriptionSection">
         <h1 className="name">
-          Hello, my name is <span className="highLighter">Rama Murthy</span>
+          Hello, My name is <span className="highLighter">Rama Murthy</span>
         </h1>
         <h1 className="specialization">
           I' m a <br className="lineBreak" />
