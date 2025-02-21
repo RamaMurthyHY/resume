@@ -3,8 +3,6 @@ import SkillRate from "./skill-rate/skillRate";
 import Bio from "./bio/bio";
 import { ABOUT_ME } from "../../constants";
 import MileStones from "../../components/mile-stones/mileStones";
-import Button from "../../components/button/button";
-import Typewriter from "typewriter-effect";
 import PageHeading from "../../components/page-heading/pageHeading";
 import "./about.scss";
 

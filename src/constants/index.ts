@@ -2,11 +2,10 @@ import Home from "../components/svg/home";
 import User from "../components/svg/user";
 import List from "../components/svg/list";
 import Briefcase from "../components/svg/briefcase";
-import AddressBook from "../components/svg/addressBook";
 import { Views } from "../enums/index";
 
 export const ABOUT_ME =
-  "Full Stack Developer with 4+ years of hands-on experience designing, developing, and implementing application and solutions using a range of technologies and programming languages. Seeking to leaverage broad development experience and hands-on technical expertise in a challenging role as a Full-stack developer.";
+  "Full-Stack Developer with 6+ years of hands-on experience designing, developing, and implementing application and solutions using a range of technologies and programming languages. Seeking to leverage broad development experience and hands-on technical expertise in a challenging role as a Full-stack developer.";
 
 export const MENUS = [
   {

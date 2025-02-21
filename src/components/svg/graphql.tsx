@@ -5,7 +5,7 @@ interface iProps {
 }
 
 function GraphQl(props: iProps): JSX.Element {
-  const { className, onClick } = props;
+  const { className } = props;
   return (
     <svg
       className={className}
